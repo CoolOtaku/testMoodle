@@ -65,13 +65,15 @@ Try using the MVS model in your plugin using the php files provided with the tas
 - Using [**Docker**](https://www.docker.com/) and *docker compose*
 - Using the database [**MariaDB**](https://mariadb.org/)
 - Using [**phpMyAdmin**](https://www.phpmyadmin.net/) for database administration
-- Creating a plug-in of the *block* type
+- Using the ***MVC*** programming model
+- Creating a plugin of the *block* type
 
 <b>UA:</b>
 - Створення застосунку за допомогою фреймворку [**Moodle**](https://moodle.org/)
 - Використання [**Docker**](https://www.docker.com/) та *docker compose*
 - Використання бази даних [**MariaDB**](https://mariadb.org/)
 - Використання [**phpMyAdmin**](https://www.phpmyadmin.net/) для адміністрування бази даних
+- Використання моделі програмування ***MVC***
 - Створення плагіну типу *block*
 
 #
