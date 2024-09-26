@@ -1,0 +1,87 @@
+{
+    "SPDXID": "SPDXRef-moodle",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-09-02T01:32:28.653Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Bitnami LMS powered by Moodle(TM) LMS 4.4.3",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-moodle"
+    ],
+    "documentNamespace": "moodle-4.4.3",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-moodle",
+            "name": "moodle",
+            "versionInfo": "4.4.3-0",
+            "downloadLocation": "https://download.moodle.org/download.php/direct/stable404/moodle-4.4.3.tgz",
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "GPL-2.0-only",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:moodle:moodle:4.4.3:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/moodle@4.4.3-0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "name": "moodle-codemirror-builder",
+            "SPDXID": "SPDXRef-Package-af498cf6a310b51f",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "f8ddbf09c2397437fb9e03c754cf8b9e513b2611"
+            },
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:npm/moodle-codemirror-builder@1.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY",
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "files": [
+        {
+            "fileName": "lib/editor/tiny/plugins/html/build/package.json",
+            "SPDXID": "SPDXRef-File-a588cc3ba54bc4fa-moodle",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "29acff7558deee2d0e20e12dfd34e652fe5b5999"
+                }
+            ],
+            "copyrightText": ""
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-moodle",
+            "relatedSpdxElement": "SPDXRef-Package-af498cf6a310b51f",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-af498cf6a310b51f",
+            "relatedSpdxElement": "SPDXRef-File-a588cc3ba54bc4fa-moodle",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
